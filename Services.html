@@ -6,35 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style/Navbar.css">
     <link rel="stylesheet" href="./Style/Main.css">
+    <link rel="stylesheet" href="./Style/Footer.css">
     <title>Nos Services</title>
 </head>
-<body>
-    <header>
+<header>
         <nav>
             <img src="./Images/Logo.svg" id="Logo_header">
-            <ul>
-                <a href="#" class="nav-links">Services</a>
-                <a href="#" class="nav-links">Produits</a>
-                <a href="#" class="nav-links">Clients</a>
-                <a href="#" class="nav-links">Actualités</a>
-                <a href="#" class="nav-links">À propos</a>
-                <a href="#" class="nav-links">Contact</a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-links">Services</a></li>
+                <li><a href="#" class="nav-links">Produits</a></li>
+                <li><a href="#" class="nav-links">Clients</a></li>
+                <li><a href="#" class="nav-links">Actualités</a></li>
+                <li><a href="#" class="nav-links">À propos</a></li>
+                <li><a href="#" class="nav-links">Contact</a></li>
             </ul>
             <button class="button btnshop">Letzshop</button>
             <button class="button btneshop">eShop PRO</button>
             <button class="dropbtn">FR</button>
         </nav>
     </header>
+<body>
+    
 
     <div class="container">
         <div class="Slider">
             <img class="Sliderimg" src="./Images/Slider.svg">
-            <h1>Nos services</h1>
-            <p></p>
-            
+            <div class="devant_image">
+                <h1 class="font title">Nos services</h1>
+                <p class="font pitch">
+                    <span class="fondvert">
+                        Notre savoir-faire est votre avantage, Lai
+                    </span>ssez-vous 
+                    convaincre par nos services adaptés à votre situation
+                    individuelle.
+                </p>
+            </div>
         </div>
         
+        <div class="letzshop">
+            <p class="eshop">E-shop</p>
+            <div class="grille">
+                <div class="cadre gauche">
+                    <div class="loremipsum">
+                        <p class="im">Je suis un particulier</p>
+                        <p >   
+                            Le Lorem Ipsum est simplement du faux texte employé 
+                            dans la composition et la mise en page avant 
+                            impression. Le Lorem Ipsum est le faux texte standard
+                             de l'imprimerie depuis les années 1500, quand un 
+                             imprimeur anonyme assembla ensemble des 
+                            morceaux de texte.
+                        </p>
+                    </div>
+                    <img src="./Images/photo letshop.png">
+                    <button class="btncadre letz">Letzshop</button>
+                </div>
+
+                <div class="cadre">
+                    <div class="loremipsum">
+                        <p class="im">Je suis un professionnel</p>
+                        <p>
+                            Le Lorem Ipsum est simplement du faux texte employé
+                            dans la composition et la mise en page avant 
+                            impression. Le Lorem Ipsum est le faux texte standard
+                             de l'imprimerie depuis les années 1500, 
+                            quand un imprimeur anonyme assembla ensemble des 
+                            morceaux de texte.
+                        </p>
+                    </div>
+                    <img src="./Images/photo b2b.png">
+                    <button class="btncadre b2b">eShop Pro</button>
+                </div>
+            </div>
+        </div>
+
+        <img class="route"src="./Images/Route background.png">
+
+        <div class="magasin">
+            <div class="maglorem">
+                <h1>Magasin</h1>
+                <div class="heure">
+                    <div class="lundi">
+                        <div>Du lundi au vendredi</div>
+                        <div>9h00 à 13h00</div>
+                    </div>
+                    <div class="samedi">
+                        <div>Le samedi</div>
+                        <div>8h30 à 17h30</div>
+                    </div>
+                </div>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la 
+                    composition et la mise en page avant impression. Le Lorem 
+                    Ipsum est le faux texte standard de l'imprimerie depuis les
+                    années 1500, quand un imprimeur anonyme assembla ensemble des 
+                    morceaux de text
+                </p>
+                <button>Page location</button>
+            </div>
+            <img class="carousel" src="./Images/pascarousel.png">
+            <img class="btncarousel" src="./Images/slide.png">
+        </div>
+
+        <div class="services">
+            <div class="conseil">
+                <img src="./Images/Photo1.png">
+                <div>
+                    <img src="./Images/pictogramme_conseil.png">
+                    <div>
+                        <p>Le conseil</p>
+                        <p>
+                            Grâce à une analyse approfondie et sur mesure de vos besoins,
+                            notre équipe de conseillers est à même de vous apporter les meilleures solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="servtech">
+                <img src="./Images/Photo2.png">
+                <div>
+                    <img src="./Images/pictogramme_servtech.png">
+                    <div>
+                        <p>Le service technique</p>
+                        <p>
+                            Notre équipe de professionnels aguerris connait l'ensemble de nos produits sur le 
+                            bout des doigts pour les opérations de maintenance ou de dépannage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="livraison">
+                <img src="./Images/Photo3.png">
+                <div>
+                    <img src="./Images/pictogramme_livraison.png">
+                    <div>
+                        <p>Livraison</p>
+                        <p>
+                            Notre logistique avisée permet d'effectuer la livraison de vos commandes en 24 heures 
+                            (dans la mesure où l'article est en stock et que la commande nous soit adressée avant 14h00).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button>Une question sur nos services ?</button>
     </div>
 
+    
+
 </body>
+<footer>
+        <div class="contenu">
+            <img src="./Images/Logo_footer.png">
+            <div class="nosservices">
+
+            </div>
+            <div class="entreprise">
+
+            </div>
+            <div class="legales">
+
+            </div>
+            <div class="logosfoot">
+                <img src="./Images/Facebook.png">
+                <img src="./Images/Instagram.png">
+                <img src="./Images/Linkedin.png">
+                <img src="./Images/G map.png">
+            </div>
+        </div>
+    </footer>
 </html>
