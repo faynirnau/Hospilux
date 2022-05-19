@@ -2,6 +2,7 @@
     width: calc(100%-280);
     height: 100%;
     margin-left: 140px;
+    font-family: 'DM Sans';
 }
 
 .Slider{
@@ -98,4 +99,78 @@
     position: absolute;
     left: 269px;
     z-index: -11;
+}
+
+.magasin{
+    color: #615b57;
+    margin-top: 174px;
+    margin-bottom: 264px;
+    
+}
+.maglorem{
+    width: 1112px;
+    height: 780px;
+    background-color: #FFFFFF;
+}
+.ipsumag{
+    width: 1023px;
+    height: 216px;
+    margin-bottom: 75px;
+}
+
+.magbtn{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 331px;
+    height: 59px;
+}
+
+.magtitle{
+    font-size: 70px;
+}
+
+.heure{
+    display: inline-flex;
+    font-size: 20px;
+    margin-bottom: 42px;
+}
+
+.espace{
+    padding: 8px 29px;
+}
+
+.H{
+    color: #000000;
+}
+
+.lundi{
+    display: inline-flex;
+    border: 1px solid #000000;
+    margin-right: 50px;
+}
+
+.samedi{
+    display: inline-flex;
+    border: 1px solid #000000;
+}
+
+.jours{
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.carousel{
+    display: block;
+    height: 560px;
+}
+
+.carouselimg{
+    position: absolute;
+    left: 0;
+    z-index: -5;
+}
+.btncarousel{
+    position: absolute;
+    right: 0;
 }
