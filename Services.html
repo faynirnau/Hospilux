@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./Style/Footer.css">
     <title>Nos Services</title>
 </head>
-<header>
+
+<body>
+    <header>
         <nav>
             <img src="./Images/Logo.svg" id="Logo_header">
             <ul class="nav-links">
@@ -25,8 +27,6 @@
             <button class="dropbtn">FR</button>
         </nav>
     </header>
-<body>
-    
 
     <div class="container">
         <div class="Slider">
@@ -116,53 +116,53 @@
             </div>
             <div class="carousel">
                 <img class="carouselimg" src="./Images/pascarousel.png">
-                <img class="btncarousel" src="./Images/slide.png">
+                <button class="btncarousel">></button>
             </div>
         </div>
 
-        <div class="services">
-            <div class="conseil">
-                <img src="./Images/Photo1.png">
-                <div>
-                    <img src="./Images/pictogramme_conseil.png">
-                    <div>
-                        <p>Le conseil</p>
-                        <p>
-                            Grâce à une analyse approfondie et sur mesure de vos besoins,
-                            notre équipe de conseillers est à même de vous apporter les meilleures solutions.
-                        </p>
-                    </div>
+        <div class="conseil flex">
+            <div class="leconseil">
+                <img class="picto" src="./Images/pictogramme_conseil.png">
+                <div class="context">
+                    <p class="contxt">Le conseil</p>
+                    <p>
+                        Grâce à une analyse approfondie et sur mesure de vos besoins,
+                        notre équipe de conseillers est à même de vous apporter les meilleures solutions.
+                    </p>
                 </div>
             </div>
-            <div class="servtech">
-                <img src="./Images/Photo2.png">
-                <div>
-                    <img src="./Images/pictogramme_servtech.png">
-                    <div>
-                        <p>Le service technique</p>
-                        <p>
-                            Notre équipe de professionnels aguerris connait l'ensemble de nos produits sur le 
-                            bout des doigts pour les opérations de maintenance ou de dépannage.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="livraison">
-                <img src="./Images/Photo3.png">
-                <div>
-                    <img src="./Images/pictogramme_livraison.png">
-                    <div>
-                        <p>Livraison</p>
-                        <p>
-                            Notre logistique avisée permet d'effectuer la livraison de vos commandes en 24 heures 
-                            (dans la mesure où l'article est en stock et que la commande nous soit adressée avant 14h00).
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <img class="consimg" src="./Images/Photo1.png">
         </div>
 
-        <button>Une question sur nos services ?</button>
+        <div class="servtech flex">
+            <img src="./Images/Photo2.png">
+            <div class="servicetech">
+                <img class="picto" src="./Images/pictogramme_servtech.png">
+                <div class="context">
+                    <p>Le service technique</p>
+                    <p>
+                        Notre équipe de professionnels aguerris connait l'ensemble de nos produits sur le 
+                        bout des doigts pour les opérations de maintenance ou de dépannage.
+                    </p>
+                </div>
+            </div>    
+        </div>
+
+        <div class="livraison flex">    
+            <div class="leconseil">
+                <img class="picto" src="./Images/pictogramme_livraison.png">
+                <div class="context">
+                    <p class="contxt">Livraison</p>
+                    <p>
+                        Notre logistique avisée permet d'effectuer la livraison de vos commandes en 24 heures 
+                        (dans la mesure où l'article est en stock et que la commande nous soit adressée avant 14h00).
+                    </p>
+                </div>
+            </div>
+            <img class="consimg" src="./Images/Photo3.png">
+        </div>
+
+        <button class="button SAV">Une question sur nos services ?</button>
     </div>
 
     
