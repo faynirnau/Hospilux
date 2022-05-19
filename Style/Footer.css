@@ -1,3 +1,43 @@
 footer{
     background-color: #615b57;
+    height: 593px;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
 }
+
+.contenu{
+    margin: 112px 304px 94px 266px;
+    width: 1350px;
+    height: 387px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.Logo_footer{
+    width: 127px;
+    height: 111px;
+}
+
+.logosfoot{
+    margin-top: 200px;
+}
+.ulsanspoint{
+    list-style: none;
+    padding: 0;
+    color: #cfc8c6;
+    font-size: 25px;
+}
+.lititle{
+    font-size: 30px;
+    font-family: 'DM Sans'
+}
+
+.petitemarge{
+    margin-bottom: 15px;
+}
+
+.grandemarge{
+    margin-bottom: 75px;
+}
+
+

@@ -23,16 +23,13 @@ a{
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
-    display: inline-flex;
-}
-
 .nav-links{
     font-size: 22px;
     font-family: 'DM Sans Regular';
     color: #615B57;
     margin-right: 30px;
+    list-style: none;
+    display: inline-flex;
 }
 
 .button{
