@@ -15,7 +15,7 @@
 }
 .CGV{
     position: relative;
-    height: 2985px;
+    height: 2650px;
     width: 1226px;
     margin-left: 146px;
     top: -120px;
@@ -49,4 +49,8 @@
     width: 969px;
     margin: 99px 0 310px 113px;
     font-size: 25px;
+}
+.bouton{
+    position: relative;
+    left: 1100px;
 }
