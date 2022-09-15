@@ -4,11 +4,49 @@
     font-family: 'DM Sans';
 }
 .banner{
-    display: block;
+    width: 100%;
+    height: 627px;
+}
+.SliderTitle{
+    font-size: 75px;
+    margin: 0 0 0 140px ; 
+    padding: 85px 0 0 0;
+    color: white;
+}
+.CGV{
+    position: relative;
+    height: 2985px;
+    width: 1226px;
+    margin-left: 146px;
+    top: -120px;
+
+}
+.chevron{
+    position: relative;
+    top: 113px;
+    left: 1150px;
+}
+.GBanner{
+    background-color: #00ff00;
+    height: 136px;
+}
+.CGVtitle{
+    font-size: 35px;
+    padding: 42px 0 47px 58px;
 }
 #img{
     width: 100%;
     z-index: -10;
     position: absolute;
     left: 0;
+}
+.contentTitle{
+    width: 785px;
+    margin: 91px 0 0 113px;
+    font-size: 75px;
+}
+.content{
+    width: 969px;
+    margin: 99px 0 310px 113px;
+    font-size: 25px;
 }
