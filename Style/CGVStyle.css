@@ -19,7 +19,6 @@
     width: 1226px;
     margin-left: 146px;
     top: -120px;
-
 }
 .chevron{
     position: relative;
@@ -37,6 +36,7 @@
 #img{
     width: 100%;
     z-index: -10;
+    position: absolute;
 }
 .contentTitle{
     width: 785px;
