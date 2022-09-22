@@ -35,23 +35,34 @@
 .apropos{
     display: flex;
     flex-direction: column;
-    margin-left: 140px;
+    margin: 0 0 331px 140px;
+    gap: 265px;
+
 }
 .contentPropos{
     display: flex;
 
 }
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
 .number{
     width: fit-content;
     height: fit-content;
     font-size: 65px;
-    color: #615B57;
     background-color: #00ff00;
     padding: 0 30px 8px 30px;
+    margin: 0;
 }
 .contentTitle{
     font-size: 70px;
     color: #615B57;
+    margin: 5px 215px 45px 0;
+}
+.petitTitre{
+    margin-right: 570px;
 }
 .txt{
     font-size: 30px;
@@ -60,9 +71,61 @@
 .btnmore{
     background-color: #000000;
     color: #ffffff;
+    border-radius: 45px;
 }
-
+.txtbtn{
+    padding: 9px 72px 12px 64px;
+    font-size: 29px;
+    margin: 0;
+}
 .dimensionimg{
     width: 814px;
     height: 560px;
+}
+.jobs{
+    display: flex;
+    justify-content: flex-end;
+    gap: 300px;
+    margin-bottom: 158px;
+}
+.contentjobs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 271px;
+}
+.card{
+    position: absolute;
+    left: 140px;
+    top: 4637px;
+    display: flex;
+    z-index: 5;
+    gap: 120px;
+}
+.carte{
+    width: 407px;
+    height: 121px;
+    font-size: 15px;
+    text-align: left;
+    box-shadow: 1px 1px 10px #707070;
+    background-color: #ffffff;
+}
+.vert{
+    background-color: #00ff00;
+    font-size: 30px;
+    text-align: center;
+}
+.txtT{
+    margin-right: 350px;
+    color: #000000;
+    margin-left: 35px;
+}
+.txtP{
+    color: #615B57;
+    margin-left: 35px;
+    margin-right: 180px;
+}
+.txtcarte{
+    margin-top: 25px;
 }

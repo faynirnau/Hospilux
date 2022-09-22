@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Sans';
+    text-align: center;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 627px;
+    margin-bottom: 143px;
+    text-align: justify;
+}
+.SliderTitle{
+    font-size: 75px;
+    color: white;
+    z-index: 2;
+    margin: 75px 0 22px 0;
+}
+.devantimg{
+    position: relative;
+    top: 85px;
+    left: 140px;
+    width: 970px;
+}
+.bannerimg{
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+}
