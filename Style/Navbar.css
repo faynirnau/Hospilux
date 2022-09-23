@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: 'DM Sans';
+    overflow-x: hidden;
 }
 header{
     width: 100%;
